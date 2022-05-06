@@ -5,11 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kseniya Baluk",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.1",
     "prettier": "^2.6.2"
   }
 }
