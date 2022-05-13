@@ -2,7 +2,7 @@
   "name": "dashboard_api",
   "version": "1.0.0",
   "description": "",
-  "main": "examples.js",
+  "main": "typescript_examples/examples.js",
   "type": "commonjs",
   "scripts": {
     "start": "node dist/src/main.js",
@@ -13,7 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
+    "inversify": "^6.0.1",
     "prettier": "^2.6.2",
+    "reflect-metadata": "^0.1.13",
     "tslog": "^3.3.3"
   },
   "devDependencies": {
